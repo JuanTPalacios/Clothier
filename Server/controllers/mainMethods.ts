@@ -253,3 +253,28 @@ export async function logout (ctx: logoutContext) {
   const token = authHeaders.split(' ')[1];
   await db.BlackList.create({sessionKey: token});
 };
+
+//Populate mock items
+import * as ZapposItems from './ZapposItems.json'
+
+export async function postItemsZappo () {
+  const zap : any = {...ZapposItems};
+  const body = zap.default;
+  try {
+    await db.items.destroy({
+      where: {},
+    })
+    await body.forEach((item: any) => {
+      db.items.create({
+        title: item.title,
+        category: item.category,
+        brand: item.brand,
+        image: item.image,
+        productId: item.productId,
+        productUrl: item.productUrl
+        })
+      })
+  } catch (err) {
+    console.log(err);
+  }
+};

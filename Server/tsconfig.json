@@ -17,6 +17,7 @@
     "target": "esnext",
     "types": ["heremaps", "jest"],
     "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": [
     "**/*.ts",

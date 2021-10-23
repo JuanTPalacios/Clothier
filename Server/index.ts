@@ -5,6 +5,7 @@ const bodyParser = require('koa-bodyparser');
 const cors = require('@koa/cors');
 const router = require('./router');
 import database from './models/index';
+const mainMethods = require('./controllers/mainMethods');
 
 const corsConfig = {
   origin: 'http://localhost:3000',
@@ -19,8 +20,8 @@ app.use(router.routes());
 const PORT = 3001;
 (async function bootstrap () {
   await database.sequelize.sync();
-  
 })();
 const App = app.listen(PORT);
+mainMethods.postItemsZappo();
 console.log(`connected at port ${PORT}`)
 module.exports = App;
