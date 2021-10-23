@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyCloset component should match the snapshot 1`] = `
+<div
+  class="columns"
+>
+  <div
+    class="column"
+  >
+    <h2>
+      People:
+    </h2>
+    <div
+      class="search-follow"
+    />
+  </div>
+  <div
+    class="column"
+  >
+    <h2>
+      Items:
+    </h2>
+    <div
+      class="search-follow"
+    />
+  </div>
+</div>
+`;

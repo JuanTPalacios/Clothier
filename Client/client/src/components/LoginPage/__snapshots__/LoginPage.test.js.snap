@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page should match the snapshot 1`] = `
+<div
+  class="login-page is-flex is-justify-content-center"
+>
+  <img
+    alt="n/a"
+    class="logo"
+    src="ClothierWideRed.png"
+  />
+  <div
+    class="login-window box"
+  >
+    <h1
+      class="title is-3"
+    >
+      Welcome to Clothier!
+    </h1>
+    <div
+      class="field"
+    >
+      <form>
+        <input
+          class="mt-1 input"
+          name="email"
+          placeholder="Email"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="mt-5 input"
+          name="password"
+          placeholder="Password"
+          required=""
+          type="password"
+          value=""
+        />
+        <button
+          class="mt-5 button is-primary is-rounded"
+          type="submit"
+        >
+           Log In 
+        </button>
+      </form>
+      <h1
+        class="mt-3 title is-5"
+      >
+        New to Clothier?
+      </h1>
+      <a
+        href="/register"
+      >
+        <button
+          class="mt-0 button is-link is-rounded"
+        >
+           Register! 
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

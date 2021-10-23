@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should match the snapshot 1`] = `
+<div>
+  
+  <div
+    class="categories tabs"
+  >
+    <ul>
+      <li
+        class="is-active"
+      >
+         
+        <a>
+          All
+        </a>
+         
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Pants
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Outerwear Pants and Sets
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Coats & Outerwear
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Hoodies & Sweatshirts
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Sweaters
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Shirts & Tops
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Underwear & Intimates
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Dresses
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Jeans
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Socks
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Skirts
+        </a>
+      </li>
+      <li
+        class=""
+      >
+        <a>
+          Kids' Sets
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="dashboardItems tile is-ancestor"
+  >
+    <div
+      class="tile is-3 is-vertical pt-2"
+    />
+    <div
+      class="tile is-3 is-vertical"
+    />
+    <div
+      class="tile is-3 is-vertical pt-3"
+    />
+    <div
+      class="tile is-3 is-vertical"
+    />
+  </div>
+</div>
+`;

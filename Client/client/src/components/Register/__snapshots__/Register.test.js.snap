@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register Page should match the snapshot 1`] = `
+<div
+  class="login-page is-flex is-justify-content-center"
+>
+  <div
+    class="login-window box"
+  >
+    <h1
+      class="title is-2"
+    >
+      Welcome to Clothier!
+    </h1>
+    <h1
+      class="title is-5"
+    >
+      Please follow these steps to begin:
+    </h1>
+    <div
+      class="field"
+    >
+      <form
+        class="form"
+      >
+        <input
+          class="mt-1 input"
+          name="email"
+          placeholder="name@mail.com"
+          required=""
+          type="email"
+          value=""
+        />
+        <input
+          class="mt-1 input"
+          name="username"
+          placeholder="Username"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="mt-1 input"
+          name="password"
+          placeholder="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <input
+          class="mt-1 input"
+          name="firstName"
+          placeholder="Name"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="mt-1 input"
+          name="lastName"
+          placeholder="Last name"
+          type="text"
+          value=""
+        />
+        <button
+          class="mt-4 button is-primary is-rounded"
+          type="submit"
+        >
+           Next 
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

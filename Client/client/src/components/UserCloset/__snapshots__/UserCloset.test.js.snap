@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register Page should match the snapshot 1`] = `
+<div>
+  
+  <div
+    class="body"
+  >
+    <h1
+      class="title is-0 mt-5 ml-5 mb-0"
+    >
+      's Closet
+    </h1>
+    <div
+      class="mt-2 ml-5"
+    >
+      <button
+        class="button is-success is-rounded"
+      >
+        Follow
+      </button>
+    </div>
+    <div
+      class="categories tabs"
+    >
+      <ul>
+        <li
+          class="is-active"
+        >
+           
+          <a>
+            All
+          </a>
+           
+        </li>
+      </ul>
+    </div>
+    <div
+      class="dashboardItems tile is-ancestor"
+    >
+      <div
+        class="tile is-3 is-vertical pt-2"
+      />
+      <div
+        class="tile is-3 is-vertical"
+      />
+      <div
+        class="tile is-3 is-vertical pt-3"
+      />
+      <div
+        class="tile is-3 is-vertical"
+      />
+    </div>
+  </div>
+</div>
+`;

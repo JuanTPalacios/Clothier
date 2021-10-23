@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Details component should match the snapshot 1`] = `
+<div
+  class="content item"
+>
+  
+  <div
+    class="box item-detail columns"
+  >
+    <div
+      class="column card"
+    >
+      <img
+        alt="n/a"
+      />
+    </div>
+    <div
+      class="column card"
+    >
+      <h1
+        class="title is-3"
+      />
+      <h1
+        class="title is-4"
+      />
+      <h1
+        class="title is-5"
+      />
+      <button
+        class="button is-rounded is-success m-2"
+      >
+        Add to MyCloset
+      </button>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <button
+          class="button is-rounded is-success m-2"
+        >
+          Buy
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    class="box columns item-related"
+  >
+    <div
+      class="column card"
+    >
+      <h1
+        class="title is-5"
+      >
+        Similar clothes in your Closet:
+      </h1>
+      <div
+        class="search-follow"
+      />
+    </div>
+    <div
+      class="column card"
+    >
+      <h1
+        class="title is-5"
+      >
+        Other clothes in this Category:
+      </h1>
+      <div
+        class="search-follow"
+      />
+    </div>
+  </div>
+</div>
+`;
